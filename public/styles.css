@@ -1,0 +1,70 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(45deg,#716f9d,#4040ab, #35abc3);
+    margin: 0px;
+    font-family: Montserrat, sans-serif;
+    color: white;
+}
+
+.navbar{
+    background: linear-gradient(#b38e52, #6b6bd9 60%, #7b6724);
+    padding: 5px;
+    padding-left: 60px;
+    color: whitesmoke;
+    box-shadow: 2px 2px 2px rgb(113, 112, 112);
+
+
+}
+.card{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    background-color: #5BCEC9;
+    height: 175px;
+    width: 200px;
+    border-radius: 15%;
+    font-size: 10px;
+}
+
+
+.avatar{
+    display: block;
+    position: relative;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.details{
+    text-align: center;
+}
+
+.getdata{
+    margin-left: 50px;
+    font-style: italic;
+}
+.data-btn{
+    position: relative;
+    background-color: #990000;
+    color: white;
+    left: 240px;
+    padding: 5px;
+    border-radius: 40px;
+    border: none;
+}
+.data-btn:hover {
+    background-color: white;
+    color: #990000;
+    box-shadow: 0 3px 0 3px #990000;
+}
+
+
